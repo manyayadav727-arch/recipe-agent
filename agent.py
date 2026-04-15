@@ -1,5 +1,6 @@
 from langchain_core.prompts import PromptTemplate
 from langchain_groq import ChatGroq
+import streamlit as st
 
 from dotenv import load_dotenv
 load_dotenv()
